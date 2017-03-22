@@ -24,7 +24,6 @@ header {
         border-radius: 3px;
     }
 
-
     .fa-search {
         position: absolute;
         right: 15px;
@@ -40,7 +39,7 @@ header {
     }
 
     nav {
-         width: 100%;
+        width: 100%;
 
         ul {
             width: 40%;
@@ -82,7 +81,6 @@ header {
             text-align: center;
             font-size: 4em;
         }
-
     }
 }
 
@@ -91,6 +89,7 @@ main {
         width: 200px;
         height: 250px;
     }
+
     h2 {
         text-align: center;
         font-size: 3em;
@@ -110,7 +109,6 @@ main {
             list-style: none;
             box-shadow: 0 5px 20px lightblue;
             position: relative;
-
 
             h3 {
                 font-family: monospace;
@@ -162,7 +160,6 @@ footer {
         max-width: 1300px;
         display: flex;
         justify-content: space-around;
-
 
         ul {
             padding: 0;

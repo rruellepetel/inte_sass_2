@@ -15,10 +15,11 @@ header {
     position: relative;
 
     .btn {
+        font-size: 1.1em;
         color: white;
         text-transform: uppercase;
         font-family: monospace;
-        padding: 0.7em 3em;
+        padding: 1.3em 5em;
         background-color: $button;
         border-radius: 3px;
     }
@@ -64,7 +65,7 @@ header {
     }
 
     .brand {
-        margin: 10em 0;
+        margin: 16em;
         text-align: center;
 
         .slogan {
@@ -94,6 +95,7 @@ main {
         text-align: center;
         font-size: 3em;
         font-family: fantasy;
+        margin-top: 1.8em;
     }
 
     ul {
@@ -184,10 +186,17 @@ footer {
             border: 3px solid $linksNav;
             padding: 0.2em;
         }
-
     }
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+    border-radius: 7px;
+    border: 2px solid $linksNav;
+    padding: 0.2em;
+    background: transparent;
+    color: white;
 }

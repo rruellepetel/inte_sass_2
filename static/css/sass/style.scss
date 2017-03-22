@@ -1,4 +1,4 @@
-@import "_colors_";
+@import "colors_";
 
 body {
     margin: 0;
@@ -211,14 +211,8 @@ img {
   max-width: 60%; }
 
 .preview {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
           flex-direction: column; }
 
 .preview-thumbnail.nav-tabs {
@@ -240,9 +234,8 @@ img {
   overflow: hidden; }
   .tab-content img {
     width: 100%;
-    -webkit-animation-name: opacity;
+
             animation-name: opacity;
-    -webkit-animation-duration: .3s;
             animation-duration: .3s; }
 
 .card {
@@ -253,9 +246,6 @@ img {
 
 @media screen and (min-width: 997px) {
   .wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex; } }
 
 .product-title, .price, .sizes, .colors {
@@ -295,7 +285,6 @@ img {
   text-transform: UPPERCASE;
   font-weight: bold;
   color: #fff;
-  -webkit-transition: background .3s ease;
           transition: background .3s ease; }
   .add-to-cart:hover, .like:hover {
     background: #b36800;
@@ -327,39 +316,3 @@ img {
 
 
 // cart page style
-
-
-.table>tbody>tr>td, .table>tfoot>tr>td{
-    vertical-align: middle;
-}
-@media screen and (max-width: 600px) {
-    table#cart tbody td .form-control{
-		width:40%;
-		display: inline !important;
-	}
-	.actions .btn{
-		width:36%;
-		margin:1.5em 0;
-	}
-
-	.actions .btn-info{
-		float:left;
-	}
-	.actions .btn-danger{
-		float:right;
-	}
-
-	table#cart thead { display: none; }
-	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
-	table#cart tbody tr td:first-child { background: #333; color: #fff; }
-	table#cart tbody td:before {
-		content: attr(data-th); font-weight: bold;
-		display: inline-block; width: 8rem;
-	}
-
-
-
-	table#cart tfoot td{display:block; }
-	table#cart tfoot td .btn{display:block;}
-
-}
